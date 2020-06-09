@@ -2,6 +2,8 @@
 
 Utility for parsing Nmap XML output
 
+![Screenshot](img/nmaptifier.png)
+
 ## Examples
 
 For simple colored output:
