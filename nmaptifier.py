@@ -46,7 +46,7 @@ def parse_xml(xml_root):
 
 if __name__ == '__main__':
 
-    parser = argparse.ArgumentParser(description='Makes Nmap\'s XML output more digestible.')
+    parser = argparse.ArgumentParser(description='Makes Nmap\'s XML output more digestible.', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('filename', help='E.g. output.xml')
     parser.add_argument('--csv', help='CSV output', action='store_true')
     args = parser.parse_args()
