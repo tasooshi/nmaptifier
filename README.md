@@ -1,6 +1,6 @@
 # nmaptifier
 
-Utility for parsing Nmap XML output
+> Utility for parsing Nmap XML output
 
 ![Screenshot](img/nmaptifier.png)
 
